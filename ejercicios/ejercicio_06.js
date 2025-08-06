@@ -8,10 +8,8 @@
 
 
 
-function filtrarMayores(numeros) {
-  return numeros.filter(numero => numero > 10);
-}
+function filtro_mayor(numeros) {return numeros.filter(numero => numero > 10);}
 
 // Ejemplo de uso:
-const resultado = filtrarMayores([5, 12, 8, 15]);
-console.log(resultado); // [12, 15]
+const resultado = filtro_mayor([5, 12, 8, 15]);
+console.log(resultado); 

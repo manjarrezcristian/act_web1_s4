@@ -8,6 +8,6 @@ function operacion(a, b, callback) {
   return callback(a, b);
 }
 
-// Ejemplo de uso:
-console.log(operacion(5, 3, (a, b) => a * b)); // 15
-console.log(operacion(10, 4, (a, b) => a - b)); // 6
+
+console.log(operacion(5, 3, (a, b) => a * b)); 
+console.log(operacion(10, 4, (a, b) => a - b)); 

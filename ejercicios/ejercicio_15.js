@@ -12,5 +12,5 @@ function invertir(cadena) {
   }
 }
 
-// Ejemplo de uso:
-console.log(invertir("hola")); // aloh
+
+console.log(invertir("hola")); 

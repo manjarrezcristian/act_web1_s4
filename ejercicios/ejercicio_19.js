@@ -4,11 +4,11 @@
 //Ejemplo: retrasarMensaje("Hola", 2000) → Imprime "Hola" tras 2 segundos.
 
 
-function retrasarMensaje(mensaje, tiempo) {
+function demorar_mensaje(mensaje, tiempo) {
   setTimeout(function () {
     console.log(mensaje);
   }, tiempo);
 }
 
-// Ejemplo de uso:
-retrasarMensaje("Hola", 2000); // Imprime "Hola" después de 2 segundos
+
+demorar_mensaje("Hola", 2000); 

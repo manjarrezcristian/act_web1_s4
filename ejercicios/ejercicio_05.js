@@ -3,8 +3,7 @@
 //Tipo de función: Función recursiva
 //Ejemplo: contarVocales("hola") → 2
 
-function contador_letras(cadena) {
-  if (cadena.length === 0) return 0;
+function contador_letras(cadena) {if (cadena.length === 0) return 0;
 
   const primera = cadena[0].toLowerCase();
   const esVocal = "aeiou".includes(primera) ? 1 : 0;
@@ -12,5 +11,5 @@ function contador_letras(cadena) {
   return esVocal + contador_letras(cadena.slice(1));
 }
 
-console.log(contador_letras("hola"));       // 2
-console.log(contador_letras("murcielago")); // 5
+console.log(contador_letras("hola"));       
+console.log(contador_letras("murcielago")); 

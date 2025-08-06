@@ -14,5 +14,5 @@ function factorial(n) {
   }
 }
 
-// Ejemplo de uso:
+
 console.log(factorial(5)); // 120

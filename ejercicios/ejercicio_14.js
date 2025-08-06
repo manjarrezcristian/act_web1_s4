@@ -11,7 +11,7 @@ const generarId = (function () {
   };
 })();
 
-// Ejemplo de uso:
-console.log(generarId()); // 1
-console.log(generarId()); // 2
-console.log(generarId()); // 3
+
+console.log(generarId()); 
+console.log(generarId()); 
+console.log(generarId()); 

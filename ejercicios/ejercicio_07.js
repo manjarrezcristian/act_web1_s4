@@ -7,6 +7,6 @@
 
 const aMayusculas = cadena => cadena.toUpperCase();
 
-// Ejemplo de uso:
+
 const resultado = aMayusculas("javascript");
-console.log(resultado); // JAVASCRIPT
+console.log(resultado); 

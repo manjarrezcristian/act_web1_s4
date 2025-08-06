@@ -8,5 +8,5 @@ const sumar = (...numeros) => {
   return numeros.reduce((total, actual) => total + actual, 0);
 };
 
-// Ejemplo de uso:
-console.log(sumar(1, 2, 3, 4)); // 10
+
+console.log(sumar(1, 2, 3, 4)); 

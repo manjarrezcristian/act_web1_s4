@@ -8,5 +8,5 @@ const reemplazarEspacios = function(cadena) {
   return cadena.replace(/ /g, "-");
 };
 
-// Ejemplo de uso:
-console.log(reemplazarEspacios("Hola Mundo")); // Hola-Mundo
+
+console.log(reemplazarEspacios("Hola Mundo"));

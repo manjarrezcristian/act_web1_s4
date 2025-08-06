@@ -3,9 +3,9 @@
 //Tipo de función: Función de orden superior
 //Ejemplo: multiplicarArreglo([2, 3, 4]) → 24
 
-function multiplicarArreglo(numeros) {
+function multiplicar_todos(numeros) {
   return numeros.reduce((acumulador, actual) => acumulador * actual, 1);
 }
 
-// Ejemplo de uso:
-console.log(multiplicarArreglo([2, 3, 4])); // 24
+
+console.log(multiplicar_todos([2, 3, 4])); 

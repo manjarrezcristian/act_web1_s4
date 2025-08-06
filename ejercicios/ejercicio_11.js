@@ -6,10 +6,10 @@
 
 
 
-function esPar(numero) {
+function es_par(numero) {
   return numero % 2 === 0;
 }
 
-// Ejemplo de uso:
-console.log(esPar(4)); // true
-console.log(esPar(7)); // false
+
+console.log(es_par(4)); 
+console.log(es_par(7)); 
